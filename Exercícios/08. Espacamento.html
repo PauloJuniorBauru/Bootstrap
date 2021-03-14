@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Espaçamento</title>
+    <style> 
+        body { padding: 0 20px 0; } 
+        table td { padding-right: 50px; }
+        table td:nth-child(1) { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1 class="display-4">Espaçamento</h1>
+
+    <p class="lead">Quando falamos em espaçamento, queremos dizer o <b>margin</b> e <b>padding</b> dos elementos. Vale lembrar que essa classe pode ser usada em qualquer tag html.</p>
+
+    <p class="lead">Vamos nos referir às <b>maring</b> com a letra <b>m</b> e os <b>padding</b> com a letra <b>p</b>. Porém você deve colocar uma segunda letra para indicar que tipo de <b>margin</b> ou <b>padding</b> deseja definir.</p>
+
+    <table>        
+        <tr>
+            <td>T</td><td>Top</td><td>Acima</td>
+        </tr>
+        <tr>
+            <td>B</td><td>Bottom</td><td>Abaixo</td>
+        </tr>
+        <tr>
+            <td>L</td><td>Left</td><td>Esquerda</td>
+        </tr>
+        <tr>
+            <td>R</td><td>Right</td><td>Direita</td>
+        </tr>
+        <tr>
+            <td>X</td><td>Both X</td><td>Esquerda e Direita</td>
+        </tr>
+        <tr>
+            <td>Y</td><td>Both Y</td><td>Cima e Baixo</td>
+        </tr> 
+        <tr>
+            <td>SEM LETRA</td><td></td><td>Os 4 R, L, T e B</td>
+        </tr>       
+    </table>
+    <br>
+
+    <p class="lead">E finalmente um terceiro caractere, um número.</p>
+
+    <table>
+        <tr>
+            <td>0</td><td>Sem margem ou padding</td>
+        </tr>
+        <tr>
+            <td>1</td><td>Espaço 0.25</td>
+        </tr>
+        <tr>
+            <td>2</td><td>Espaço 0.5</td>
+        </tr>
+        <tr>
+            <td>3</td><td>Espaço 1</td>
+        </tr>
+        <tr>
+            <td>4</td><td>Espaço 1.5</td>
+        </tr>
+        <tr>
+            <td>5</td><td>Espaço 3</td>
+        </tr>
+        <tr>
+            <td>Auto</td><td>Margem automática (Somente para margin)</td>
+        </tr>
+    </table>
+    <br>
+
+    <p class="lead">Vejamos um exemplo com o texto abaixo.</p>
+
+    <p class="mx-4 bg-info">Texto com ambas as margens "esquerda e direita" com espaçamento de 1.5. A classe <b>bg-info</b> foi adicionada para termos um background e assim poder facilitar nossa visualisação do espaçamento externo.</p>
+
+    <p class="pt-5 bg-info">Texto com padding "acima" com espaçamento de 3. A classe <b>bg-info</b> foi adicionada para termos um background e assim poder facilitar nossa visualisação do espaçamento interno.</p>
+</body>
+</html>
