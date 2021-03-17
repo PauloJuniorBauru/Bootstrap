@@ -5,26 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Botão dropdown</title>
+    <title>Botão em Grupo</title>
     <style> body { padding: 0 20px 0; } </style>
 </head>
 <body>
-    <h1 class="display-4">Botão dropdown</h1>
+    <h1 class="display-4">Botão em Grupo</h1>
 
-    <p class="lead">Vamos ver um botão suspenso, do tipo <b>dropdown</b>. É como criar um menu. Vamos a um exemplo de criação de um botão de menu com três opções.</p>
+    <p class="lead">É possível criar um grupo de botões que nos ajudarão a criar um menu, seja com alinhamento horizontal, com a classe <b>btn-group</b> ou vertical com a classe <b>btn-group-vertical</b>.</p>
     
-    <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-            Menu desdobrável
-        </button>
-
-        <div class="dropdown-menu">
-            <a href="#" class="dropdown-item">Item 01</a>
-            <a href="#" class="dropdown-item">Item 02</a>
-            <a href="#" class="dropdown-item">Item 03</a>
-        </div>
+    <h2>Grupo Horizontal</h2>
+    <div class="btn-group">
+        <button class="btn btn-primary">Botão 01</button>
+        <button class="btn btn-success">Botão 02</button>
+        <button class="btn btn-secondary">Botão 03</button>
     </div>
 
+<hr>
+
+    <h2>Grupo Vertical</h2>
+    <div class="btn-group-vertical">
+        <button class="btn btn-primary">Botão 01</button>
+        <button class="btn btn-success">Botão 02</button>
+        <button class="btn btn-secondary">Botão 03</button>
+    </div>
     
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
